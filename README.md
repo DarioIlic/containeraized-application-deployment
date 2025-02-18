@@ -1,4 +1,4 @@
-# Containeraized Application Deployment
+# Containerized Application Deployment
 
 I created a hello.py that uses Flask to run a simple script that will display "Hello World!" when accessed.
 
