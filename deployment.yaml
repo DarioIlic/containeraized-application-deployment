@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project-python-test
+spec:
+  selector:
+    matchLabels:
+      app: project-python-test
+  template:
+    metadata:
+      labels:
+        app: project-python-test
+    spec:
+      containers:
+      - name: project-python-test
+        image: dario34/project-python-test:v1.0
+        ports:
+        - containerPort: 8000
